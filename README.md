@@ -3,11 +3,11 @@
 ✨ Professional Repository Showcase Template
 
 ## Live Deployments
+- Netlify: https://14-react-blog-template-mkazi.netlify.app
+- GitHub Pages: https://mk-knight23.github.io/14-react-blog-template/
 
-- **GitHub Pages:** https://mk-knight23.github.io/14-react-blog-template/
-- **Vercel:** https://14-react-blog-template.vercel.app
-
-Status: 🟡 GH Pages Live | Vercel Pending (Daily Limit)
+Status: 🟢 Live
+Last Updated: 2026-01-21T14:16:00+05:30
 
 ## Features
 - 📱 Mobile Responsive
