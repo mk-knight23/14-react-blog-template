@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
-import { motion, useScroll, useSpring } from 'framer-motion';
+import { motion, useScroll, useSpring, AnimatePresence } from 'framer-motion';
 import { BookOpen, Calendar, Clock, ArrowRight, Mail, Github, Twitter, Linkedin, Search, Menu, X, ArrowUpRight } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 const POSTS = [
     {
@@ -198,7 +198,7 @@ function App() {
                     </div>
 
                     <div className="pt-12 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-8 text-[10px] font-black text-slate-400 uppercase tracking-widest">
-                        <p>© 2024 MK_MODERN_BLOG_REBUILD • 30/30 DONE</p>
+                        <p>© 2026 MK-BLOG // EVOLUTION WAVE • 30/30 DONE</p>
                         <div className="flex gap-8">
                             <a href="#" className="hover:text-teal-600">Privacy Policy</a>
                             <a href="#" className="hover:text-teal-600">Terms of Service</a>
@@ -225,8 +225,5 @@ function FooterSection({ title, links }: { title: string, links: string[] }) {
     );
 }
 
-function AnimatePresence({ children }: { children: any }) {
-    return children;
-}
 
 export default App;

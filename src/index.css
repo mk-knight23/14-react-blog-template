@@ -1,17 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+    --color-editorial-teal: #0d9488;
+}
 
 @layer base {
     body {
-        @apply antialiased bg-slate-50 text-slate-800 selection:bg-teal-100;
+        @apply bg-slate-50 text-slate-900 antialiased selection:bg-teal-100;
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
     }
 }
 
-.typography-h1 {
-    @apply text-5xl md:text-7xl font-black tracking-tighter leading-[0.9];
+html {
+    scroll-behavior: smooth;
 }
 
-.typography-p {
-    @apply text-lg md:text-xl leading-relaxed text-slate-600 font-medium;
+@layer components {
+    .typography-p {
+        @apply text-xl md:text-2xl text-slate-500 font-medium leading-relaxed;
+    }
 }
